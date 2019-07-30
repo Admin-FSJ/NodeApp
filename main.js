@@ -7,6 +7,6 @@ var server = http.createServer(function (request, response) {
   response.end("Hello NodeApp!! \n");
 });
 
-// listen on localhost:8000
-server.listen(8000);
-console.log("Server listening on port 8000 :  http://127.0.0.1:8000/");
+// listen on localhost:8080
+server.listen(8080);
+console.log("Server listening on port 8080 :  http://107.20.75.18:8080/");
